@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #24252a;
+}
+
+nav h3 {
+  margin-left: 10px;
+  color: white;
+}
+
+nav ul {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul .li {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  color: white;
+}
+
+nav ul .li:hover {
+  text-decoration: none;
+  color: #7786b3;
+}

@@ -1,0 +1,35 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #24252a;
+  color: white;
+  border-radius: 5px;
+}
+
+form input {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #24252a;
+  color: white;
+  transition: 150ms;
+}
+
+form button:hover {
+  background-color: white;
+  color: #24252a;
+}
